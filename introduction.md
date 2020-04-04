@@ -13,6 +13,10 @@ Reference to useful mathematical techniques
 This guide does not claim to make any attempt to teach you how to be a professional data scientist.
 
 
+## Resources
+* [clojuredatascience.com](http://clojuredatascience.com/) - Henry Garner
+
+
 ## Contributing
 Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are easier when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
 
