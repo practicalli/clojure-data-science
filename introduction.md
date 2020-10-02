@@ -13,10 +13,18 @@ Integration with other data science tooling
 
 Reference to useful mathematical techniques
 
-This guide does not claim to make any attempt to teach you how to be a professional data scientist.
+This guide will not teach you how to be a professional data scientist.
+
+
+## Highly Recommended books for developers
+[![Deep Learning for Programmers](https://aiprobook.com/img/dlfp-cover.png)](https://aiprobook.com/deep-learning-for-programmers/)
+
+[![Deep Learning for Programmers](https://aiprobook.com/img/lafp-cover.png)](https://aiprobook.com/numerical-linear-algebra-for-programmers/)
 
 
 ## Resources
+* [Interactive Programming for Artificial Intelligence](https://aiprobook.com/) - learn artificial intelligence programming skills
+* [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/)
 * [clojuredatascience.com](http://clojuredatascience.com/) - Henry Garner
 
 
