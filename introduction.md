@@ -1,6 +1,9 @@
+![Practicalli Data Science book banner](https://raw.githubusercontent.com/practicalli/graphic-design/master/practicalli-clojure-data-science-book-banner-alpha.png)
+
+
 # Data Science with Clojure
 
-A guide to writing services and applications in the context of data science
+Absolute beginners guide to writing services and applications in the context of data science.
 
 Introduces libraries and tools useful for creating those applications
 
