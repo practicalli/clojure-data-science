@@ -2,6 +2,9 @@
 
 * [Introduction](introduction.md)
 
+## Collaborative Programming
+* [Using a shared server](collaborative-coding/shared-server.md)
+
 ## Data mining
 
 <!-- * [Data Mining](data-mining/index.md) -->
