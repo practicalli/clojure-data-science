@@ -3,23 +3,59 @@
 
 # Data Science with Clojure
 
-Absolute beginners guide to writing services and applications in the context of data science.
+Getting started with Clojure data science applications libraries and tools.  Learn to write services and applications using Clojure  within the context of data science.
 
-Introduces libraries and tools useful for creating those applications
+Introduces Clojure libraries and tools useful for creating notebooks, applications, services and visualizations
 
-Visualization of data
+## What is data science
 
-Integration with other data science tooling
+Neural networks are a collection of predicate functions that are assembled into a network
 
-Reference to useful mathematical techniques
+AI is the future we are trying to build
+machine learning, neural networks, natural language programming are the practical tools and approaches that we are applying to solve AI
 
-This guide will not teach you how to be a professional data scientist.
 
+## What is Clojure?
+Clojure is a general purpose programming language and is used for creating any applications, tools, services across any industry.
+
+Clojure is a hosted language, so it can run on a Java Virtual machine (especially for high volume data processing).  Clojure can also run on JavaScript engines found in web browsers and nodejs.
+
+Clojure has a very simple syntax and is simple to write and maintain.
+
+Clojure is very data centric and the standard library has over 500 functions for manipulating and transforming data, so is ideal for data science tasks.
+
+[Practicalli Clojure will help you get started with Clojure](https://practicalli.github.io/clojure/) and help you create a Clojure development environment with a [Clojure aware editor](http://practicalli.github.io/clojure/clojure-editors/).
+
+## Examples of Clojure for Data Science
+Use cases
+
+
+## Notebooks
+* NextJournal
+* [Pink Gorilla interactive notebook](https://pink-gorilla.github.io/)
+* Notespace
+
+
+## Clojure libraries for data science
+* Tablecloth
+* tech.viz and Oz
+
+
+## Time series
+* [tidyverts](https://tidyverts.org/)
+
+
+## SciCloj community
+A community of people using Clojure and other tools to create amazing things in the realm of science
+* [Homepage](https://scicloj.github.io/)
+* [YouTube channel](https://www.youtube.com/channel/UCaoZzhNzq-H7YiQczXKuXuw/)
+* [GitHub repository](https://github.com/scicloj/)
+* [SciCloj discussions](https://scicloj.github.io/pages/chat_streams/) on [Zulip Clojurians](http://clojurians.zulipchat.com/)
 
 ## Highly Recommended books for developers
 [![Deep Learning for Programmers](https://aiprobook.com/img/dlfp-cover.png)](https://aiprobook.com/deep-learning-for-programmers/)
-
 [![Deep Learning for Programmers](https://aiprobook.com/img/lafp-cover.png)](https://aiprobook.com/numerical-linear-algebra-for-programmers/)
+
 
 
 ## Resources
@@ -34,6 +70,15 @@ Issues and pull requests are most welcome.  Please detail issues as much as you 
 * [Kanban board of issues](https://github.com/practicalli/data-science-content/projects/1)
 * [Current Issues](https://github.com/practicalli/data-science-content/issues)
 * [Current pull requests](https://github.com/practicalli/data-science-content/pulls)
+
+
+## Aspects to develop for the book
+* Aspects of data science and
+* Visualization of data
+* Integration with other data science tooling
+* Reference to useful mathematical techniques
+
+This guide will not teach you how to be a professional data scientist but should help you when working with experienced data scientists.
 
 
 ---
