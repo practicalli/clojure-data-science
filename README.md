@@ -3,13 +3,92 @@ A guide to writing services and applications in the context of data science
 
 Introduces libraries and tools useful for creating those applications
 
-Visualization of data
+Visualisation of data
 
 Integration with other data science tooling
 
 Reference to useful mathematical techniques
 
 This guide does not claim to make any attempt to teach you how to be a professional data scientist.
+
+
+## Initial focus
+Focusing on the essentials as a very basic introduction to some of the most simplest data science
+
+* tools
+* data wrangling
+* data visualisation
+
+
+## Example projects
+
+* Simple Covid19 dashboard - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
+
+* Oz Visualisation examples - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
+
+* Ascii visualisation
+
+* Visualising survey data - take a survey such as
+
+
+## Other aspects
+
+* Data generation - examples of how to generate sample data
+
+* Data sources - what are good data sources and what concepts are they good for exploring
+
+* Identify and simply explain data science concepts and provide understanding / examples of how they can be valuable
+
+
+## Data Science
+
+What does it include and what kind of projects
+
+
+- Trend analysis
+- Principle component analysis
+- Basic Modelling (for machine learning)
+
+
+
+## Target Audience
+
+This guide is aimed at predominantly software engineer (software developer) audience and they would benefit from Clojure experience and practice.
+
+As little as possible experience should be required to follow and understand this guide
+
+
+### Persona
+
+Jane is a Clojure developer with a couple of years commercial experience
+Jane has no data science experience
+She has a project to create a dashboard to visualise covid19 data for her company
+And has to find useful tools and data sources to build the dashboard
+
+Jada
+- statisticians
+- machine learning
+- visualisation
+- computer vision
+- ML Ops
+- Probabilistic ???
+
+
+
+Jamie is a analyst using data science for the last year as a company doing X
+and has completed X data science course
+and works with several more experienced data scientist who are using some python and R to build data models.
+
+
+Jenny is new to coding and has an interest in data science and machine learning and has no real experience in any of these.
+doesnt know what she doesnt know
+doesnt know where to start looking
+
+
+Jennifer has several years experience of R and Python (and occasionally wrangled a few C++ libraries)
+Jennifer is curious about Clojure because ???
+- listened to a talk on Simple made Easy and wishes that R and Python would make some of the work simpler
+-
 
 
 ## Contributing
