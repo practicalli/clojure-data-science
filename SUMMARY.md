@@ -5,6 +5,12 @@
 ## Collaborative Programming
 * [Using a shared server](collaborative-coding/shared-server.md)
 
+## Notebooks
+* [notespace](notebooks/notespace/index.md)
+    * [Configure notespace](notebooks/notespace/configure-notespace-project.md)
+<!-- * [Next Journal](notebooks/next-journal/index.md) -->
+<!-- * [Pink Gorilla](notebooks/pink-gorilla/index.md) -->
+
 ## Data mining
 
 <!-- * [Data Mining](data-mining/index.md) -->
