@@ -32,7 +32,16 @@
 <!--     * [JSON transforms](data-mining/json/index.md) -->
 
 
+## Visualisation
 
+* [Story telling](visualization/story-telling/index.md)
+* [Oz](visualization/oz/index.md)
+    * [Create Project](visualization/oz/create-project.md)
+    * [Oz](visualization/oz/clojure-spec.md)
+    * [Generate Static site](visualization/oz/clojure-spec.md)
+
+
+<!-- ## Incantor / R -->
 
 <!-- ggplot? -->
 
@@ -53,6 +62,16 @@
     * [libpython-clj](https://github.com/clj-python/libpython-clj)
 
 
+## Collaborative Programming
+* [Using a shared server](collaborative-coding/shared-server.md)
+
+
 ## Reference
 * [Reference](reference/index.md)
 * [Math for Clojure developers](reference/math/math-for-clojure-developers.md)
+
+
+
+
+
+TableCloth - an abstractions library for tech.ml which is optomised to working with data in table form.  Data science projects often work with large data sets in table format.
