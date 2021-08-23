@@ -2,6 +2,13 @@
 
 * [Overview](overview.md)
     * [Persona](persona/index.md)
+    * [What is Clojure?](what-is-clojure.md)
+    * [Recommended books](data-science-books.md)
+    * [Contributing](contributing.md)
+
+## Tooling
+
+* Literate programming
 
 * [Notebooks](notebooks/index.md)
     * [notespace](notebooks/notespace/index.md)
@@ -11,14 +18,7 @@
     * [Next Journal](notebooks/next-journal/index.md)
     * [Pink Gorilla](notebooks/pink-gorilla/index.md)
 
-## Collaborative Programming
-* [Using a shared server](collaborative-coding/shared-server.md)
 
-## Notebooks
-* [notespace](notebooks/notespace/index.md)
-    * [Configure notespace](notebooks/notespace/configure-notespace-project.md)
-<!-- * [Next Journal](notebooks/next-journal/index.md) -->
-<!-- * [Pink Gorilla](notebooks/pink-gorilla/index.md) -->
 
 ## Data mining
 
@@ -30,22 +30,15 @@
 <!--         * [clojure.data.csv](data-mining/comman-separate-values/clojure-data-csv.md) -->
 <!--         * [semantic-csv](data-mining/comman-separate-values/semantic-csv.md) -->
 <!--     * [JSON transforms](data-mining/json/index.md) -->
-## Visualization
 
-<!-- * [Oz](visualization/oz/index.md) -->
-<!--     * [Create Project](visualization/oz/create-project.md) -->
-<!-- * [Oz](visualization/oz/clojure-spec.md) -->
-<!-- * [Generate Static site](visualization/oz/clojure-spec.md) -->
 
-## Literate programming
 
-## Incantor / R
 
 <!-- ggplot? -->
 
-## Python Integraion
+<!-- ## Python Integraion -->
+
 
 ## Reference
 * [Reference](reference/index.md)
 * [Math for Clojure developers](reference/math/math-for-clojure-developers.md)
-* [Contributors](contributors.md)
