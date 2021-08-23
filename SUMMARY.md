@@ -13,10 +13,10 @@
 
 ## Data mining
 
-<!-- * [Data Mining](data-mining/index.md) -->
-<!--     * [Web scraping](data-mining/webscraping/index.md) -->
-<!--         * [Web Tags to Clojure](data-mining/webscraping/enlive.md) -->
-<!--         * [Table data](data-mining/webscraping/table-data.md) -->
+* [Data Mining](data-mining/index.md)
+    * [Web scraping](data-mining/webscraping/index.md)
+        * [Web Tags to Clojure](data-mining/webscraping/enlive.md)
+        * [Table data](data-mining/webscraping/table-data.md)
 <!--     * [CSV transforms](data-mining/comman-separate-values/index.md) -->
 <!--         * [clojure.data.csv](data-mining/comman-separate-values/clojure-data-csv.md) -->
 <!--         * [semantic-csv](data-mining/comman-separate-values/semantic-csv.md) -->
