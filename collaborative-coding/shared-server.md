@@ -11,19 +11,19 @@ Use the Clojure.org Getting Started instructions to download Clojure for Linux a
 
 Use a range of community tools by installing the practicalli/clojure-deps-edn configuration (first deleting the `~/.clojure` directory if it exists - create if you run `clojure` or `clj` for the first time)
 
-```
+```bash
 git clone https://github.com/practicalli/clojure-deps-edn.git ~/.clojure/
 ```
 
 New projects can be created on the remote server, using one of the numerous [project templates for Clojure projects](https://practicalli.github.io/clojure/clojure-tools/projects/create.html).  For example a simple command line application
 
-```
+```bash
 clojure -X:project/new :template app :name scicloj/my-app
 ```
 
 Run a feature rich terminal REPL using rebel readline
 
-```
+```bash
 clojure -M:repl/rebel
 ```
 
@@ -37,7 +37,7 @@ Add the IP address of the remote server to `HostName`.
 
 Use the `LocalForward` for the port used by the nREPL server.
 
-```
+```bash
 Host remote-clojure-server
   HostName 99.99.99.99
   IdentityFile ~/.ssh/remote-server.pem
@@ -58,7 +58,7 @@ Change to a Clojure project
 
 Start the REPL using the cider middleware on the same port as defined in `LocalForward` in the SSH configuration, using the `-p` to set the port number.
 
-```shell
+```bash
 clojure -M:middleware/cider-clj -p 1234
 ```
 
@@ -70,7 +70,7 @@ Edit your Emacs `~/.emacs.d/init.el` file and add the following configuration.
 
 For Spacemacs, edit `~/.spacemacs` and add the following code to `dotspacemacs/user-config`
 
-```elisp
+```lisp
   (setq nrepl-use-ssh-fallback-for-remote-hosts t)
 ```
 
@@ -91,7 +91,7 @@ ssh into the remote server with an account that has sudo privileges
 
 Enable the reverse proxy module `mod_proxy_http` which has a dependency on `mod_proxy` and is also enabled automatically.
 
-```shell
+```bash
 sudo a2enmod proxy_http
 ```
 
@@ -101,7 +101,7 @@ sudo a2enmod proxy_http
 Create a new configuration by copying the `/etc/apache2/sites-available/000-default.conf` to `/etc/apache2/sites-available/reverse-proxy.conf`.  This ensures you have a working backup if the configuration breaks or you wish to quickly switch back to a non-proxy configuration.
 
 Edit `/etc/apache2/sites-available/reverse-proxy.conf` and add the following configuration inside the `VirtualHost` directive
-```
+```bash
      ProxyRequests Off
      ProxyPass "/" "http://localhost:8080/"
      ProxyPassReverse "/" "http://localhost:8080/"
@@ -111,7 +111,7 @@ Edit `/etc/apache2/sites-available/reverse-proxy.conf` and add the following con
 
 Disable the other sites so that they do not over-ride the reverse proxy configuraion.  This simply removes the symbolic link from sites-enabled directory, their configuration is still in the sites-available directory.
 
-```
+```bash
 sudo a2dissite scicloj
 sudo a2dissite 000-default
 ```
@@ -121,7 +121,7 @@ sudo a2dissite 000-default
 
 To use a number of projects or visualisation tools, update the `/etc/apache2/sites-available/reverse-proxy.conf` and add more `ProxyPass` and `ProxyReverse` directives
 
-```
+```bash
      ProxyPass "/oz" "http://localhost:8080/"
      ProxyPassReverse "/oz" "http://localhost:8080/"
 
