@@ -1,0 +1,881 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Using a shared server · Into Clojure Data Science</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-callouts/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-folding-chapters/folding-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-newtabs/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-newtabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-simpletabs/tabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminull-light/terminull.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-wide-page/wide.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../reference/" />
+    
+    
+
+    </head>
+    <body>
+        
+
+
+<div class="book">
+    <div class="book-summary">
+        
+      <!-- <div class="theme-code-header">
+           <a href="" class="link">
+           <h1 class="title">Into Clojure Data Science</h1>
+           </a>
+           </div> -->
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://scicloj.github.io/" target="_blank" class="custom-link">SciCloj</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://practicalli.github.io" target="_blank" class="custom-link">Practical.li</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                  <!--  -->
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../overview.html">
+            
+                <a href="../overview.html">
+            
+                  <!--  -->
+                    Overview
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../persona/">
+            
+                <a href="../persona/">
+            
+                  <!--  -->
+                    Persona
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../what-is-clojure.html">
+            
+                <a href="../what-is-clojure.html">
+            
+                  <!--  -->
+                    What is Clojure?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../data-science-books.html">
+            
+                <a href="../data-science-books.html">
+            
+                  <!--  -->
+                    Recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../contributing.html">
+            
+                <a href="../contributing.html">
+            
+                  <!--  -->
+                    Contributing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tooling</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                  <!--  -->
+                    Literate programming
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../notebooks/">
+            
+                <a href="../notebooks/">
+            
+                  <!--  -->
+                    Notebooks
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../notebooks/notespace/">
+            
+                <a href="../notebooks/notespace/">
+            
+                  <!--  -->
+                    notespace
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../notebooks/notespace/configure-notespace-project.html">
+            
+                <a href="../notebooks/notespace/configure-notespace-project.html">
+            
+                  <!--  -->
+                    Configure notespace
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../notebooks/clerk/">
+            
+                <a href="../notebooks/clerk/">
+            
+                  <!--  -->
+                    Clerk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../notebooks/next-journal/">
+            
+                <a href="../notebooks/next-journal/">
+            
+                  <!--  -->
+                    Next Journal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../notebooks/pink-gorilla/">
+            
+                <a href="../notebooks/pink-gorilla/">
+            
+                  <!--  -->
+                    Pink Gorilla
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Data mining</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../data-mining/">
+            
+                <a href="../data-mining/">
+            
+                  <!--  -->
+                    Data Mining
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../data-mining/webscraping/">
+            
+                <a href="../data-mining/webscraping/">
+            
+                  <!--  -->
+                    Web scraping
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1.1" data-path="../data-mining/webscraping/enlive.html">
+            
+                <a href="../data-mining/webscraping/enlive.html">
+            
+                  <!--  -->
+                    Web Tags to Clojure
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.2" data-path="../data-mining/webscraping/table-data.html">
+            
+                <a href="../data-mining/webscraping/table-data.html">
+            
+                  <!--  -->
+                    Table data
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Visualisation</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../visualization/story-telling/">
+            
+                <a href="../visualization/story-telling/">
+            
+                  <!--  -->
+                    Story telling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../visualization/oz/">
+            
+                <a href="../visualization/oz/">
+            
+                  <!--  -->
+                    Oz
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../visualization/oz/create-project.html">
+            
+                <a href="../visualization/oz/create-project.html">
+            
+                  <!--  -->
+                    Create Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../visualization/oz/clojure-spec.html">
+            
+                <a href="../visualization/oz/clojure-spec.html">
+            
+                  <!--  -->
+                    Oz
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="../visualization/oz/clojure-spec.html">
+            
+                <a href="../visualization/oz/clojure-spec.html">
+            
+                  <!--  -->
+                    Generate Static site
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Mathematics</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../mathematics/linear-algebra/">
+            
+                <a href="../mathematics/linear-algebra/">
+            
+                  <!--  -->
+                    Linear Algebra
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Integration</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../integration/python/">
+            
+                <a href="../integration/python/">
+            
+                  <!--  -->
+                    Python
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" >
+            
+                <a target="_blank" href="https://github.com/clj-python/libpython-clj">
+            
+                  <!--  -->
+                    libpython-clj
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Collaborative Programming</li>
+        
+        
+    
+        <li class="chapter active" data-level="7.1" data-path="shared-server.html">
+            
+                <a href="shared-server.html">
+            
+                  <!--  -->
+                    Using a shared server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Reference</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../reference/">
+            
+                <a href="../reference/">
+            
+                  <!--  -->
+                    Reference
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../reference/math/math-for-clojure-developers.html">
+            
+                <a href="../reference/math/math-for-clojure-developers.html">
+            
+                  <!--  -->
+                    Math for Clojure developers
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="" target="_blank" class="gitbook-link">
+            Author: 
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Using a shared server</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="using-a-shared-server">Using a Shared server</h1>
+<h2 id="create-a-remote-server">Create a remote server</h2>
+<p>TODO: how to create a suitable remote server on AWS, Google, etc.</p>
+<blockquote>
+<p>Dont forget to switch the server off when not using it, so it doesnt cost you extra credits.</p>
+</blockquote>
+<h2 id="install-clojure">Install Clojure</h2>
+<p>Use the Clojure.org Getting Started instructions to download Clojure for Linux and run the install script.  This installs <code>clojure</code> command system wide (<code>/usr/local/bin/</code>) along with the <code>clj</code> wapper that runs a terminal REPL using <code>rlwrap</code> (TODO: check rlwrap is installed).</p>
+<p>Use a range of community tools by installing the practicalli/clojure-deps-edn configuration (first deleting the <code>~/.clojure</code> directory if it exists - create if you run <code>clojure</code> or <code>clj</code> for the first time)</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">git</span> clone https://github.com/practicalli/clojure-deps-edn.git ~/.clojure/
+</code></pre>
+<p>New projects can be created on the remote server, using one of the numerous <a href="https://practicalli.github.io/clojure/clojure-tools/projects/create.html" target="_blank">project templates for Clojure projects</a>.  For example a simple command line application</p>
+<pre class="language-"><code class="lang-bash">clojure -X:project/new :template app :name scicloj/my-app
+</code></pre>
+<p>Run a feature rich terminal REPL using rebel readline</p>
+<pre class="language-"><code class="lang-bash">clojure -M:repl/rebel
+</code></pre>
+<h2 id="configure-the-ssh-connection">Configure the SSH connection</h2>
+<p>Generate a permissions file, <code>.pem</code> from the server (TODO: how to generate .pem files) and save it to <code>~/.ssh/</code> directory (or your preferred location).</p>
+<p>Edit the <code>~/.ssh/config</code> file (create the file if needed) and add a host configuration for the remote server.</p>
+<p>Add the IP address of the remote server to <code>HostName</code>.</p>
+<p>Use the <code>LocalForward</code> for the port used by the nREPL server.</p>
+<pre class="language-"><code class="lang-bash">Host remote-clojure-server
+  HostName <span class="token number">99.99</span>.99.99
+  IdentityFile ~/.ssh/remote-server.pem
+  User ubuntu
+  PasswordAuthentication <span class="token function">yes</span>
+  LocalForward <span class="token number">1234</span> localhost:1234
+  Port <span class="token number">22</span>
+</code></pre>
+<h2 id="starting-a-repl-with-editor-support">Starting a REPL with Editor support</h2>
+<p>The majority of <a href="https://practicalli.github.io/clojure/clojure-editors/" target="_blank">Clojure aware editors</a> can connect to an external REPL using the nREPL protocol.  Emacs CIDER, VSCode Calva and NeoVim Conjure all use nREPL and the Cider middleware.</p>
+<p>The <code>:middleware/cider-clj</code> will inject the nREPL and Cider middleware libraries.</p>
+<p>SSH into the remote server.</p>
+<p>Change to a Clojure project</p>
+<p>Start the REPL using the cider middleware on the same port as defined in <code>LocalForward</code> in the SSH configuration, using the <code>-p</code> to set the port number.</p>
+<pre class="language-"><code class="lang-bash">clojure -M:middleware/cider-clj -p <span class="token number">1234</span>
+</code></pre>
+<h2 id="configure-emacs-to-listen-to-nrepl-port">Configure Emacs to listen to nREPL port</h2>
+<p>Emacs can be used to connect to a running Clojure project that has been run with the nREPL and Cider middleware, e.g. <code>:middleware/cider-clj</code> from <a href="http://practicalli.github.io/clojure/clojure-tools/install/community-tools.html" target="_blank"><code>practicalli/clojure-deps-edn</code></a></p>
+<p>Edit your Emacs <code>~/.emacs.d/init.el</code> file and add the following configuration.</p>
+<p>For Spacemacs, edit <code>~/.spacemacs</code> and add the following code to <code>dotspacemacs/user-config</code></p>
+<pre class="language-"><code class="lang-lisp"><span class="token punctuation">(</span><span class="token keyword">setq</span> nrepl-use-ssh-fallback-for-remote-hosts <span class="token boolean">t</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="using-neovim-and-conjure-on-remote-server">Using NeoVim and Conjure on remote server</h2>
+<p>NeoVim and Conjure are installed on the remote server using the <a href="https://practicalli.github.io/clojure/clojure-editors/editor-install-guides/neovim-conjure.html" target="_blank">Practicalli install guide</a>.</p>
+<p>Conjure will automatically connect to a running REPL</p>
+<div class="panel panel-success"><div class="panel-heading"><h3 class="panel-title" id="conjure-uses-nrepl-port"><i class="fa fa-lightbulb-o"></i> Conjure uses .nrepl-port</h3></div><div class="panel-body"><p>Conjure looks for the <code>.nrepl-port</code> in the root of the project.  If this file is not created when running the REPL, create the file and use the same value as <code>LocalForward</code> from the SSH configuration.</p></div></div>
+<h2 id="apache-httpd-server-as-a-reverse-proxy">Apache HTTPd server as a reverse proxy</h2>
+<p>Use a reverse proxy if you wish to expose visualizations via a browser, such as Oz or notespace.</p>
+<p>ssh into the remote server with an account that has sudo privileges</p>
+<p>Enable the reverse proxy module <code>mod_proxy_http</code> which has a dependency on <code>mod_proxy</code> and is also enabled automatically.</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">sudo</span> a2enmod proxy_http
+</code></pre>
+<div class="panel panel-success"><div class="panel-heading"><h3 class="panel-title" id="modules-are-part-of-the-ubuntu-apache-install"><i class="fa fa-lightbulb-o"></i> Modules are part of the Ubuntu Apache install</h3></div><div class="panel-body"><p>No additional Ubuntu packages are required, as these modules are already part of the Apache2 package install.</p></div></div>
+<p>Create a new configuration by copying the <code>/etc/apache2/sites-available/000-default.conf</code> to <code>/etc/apache2/sites-available/reverse-proxy.conf</code>.  This ensures you have a working backup if the configuration breaks or you wish to quickly switch back to a non-proxy configuration.</p>
+<p>Edit <code>/etc/apache2/sites-available/reverse-proxy.conf</code> and add the following configuration inside the <code>VirtualHost</code> directive</p>
+<pre class="language-"><code class="lang-bash">ProxyRequests Off
+     ProxyPass <span class="token string">&quot;/&quot;</span> <span class="token string">&quot;http://localhost:8080/&quot;</span>
+     ProxyPassReverse <span class="token string">&quot;/&quot;</span> <span class="token string">&quot;http://localhost:8080/&quot;</span>
+</code></pre>
+<p><code>sudo a2ensite reverse-proxy</code> to enable the reverse-proxy configuration, which adds a symbolic link in the <code>/etc/apache2/sites-enabled/</code> directory (all configurations in this directory are included via <code>/etc/apache2/apache2.conf</code>)</p>
+<p>Disable the other sites so that they do not over-ride the reverse proxy configuraion.  This simply removes the symbolic link from sites-enabled directory, their configuration is still in the sites-available directory.</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">sudo</span> a2dissite scicloj
+<span class="token function">sudo</span> a2dissite 000-default
+</code></pre>
+<p><code>sudo systemctl restart apache2</code> to restart apache http server with the reverse proxy configuration</p>
+<p>To use a number of projects or visualisation tools, update the <code>/etc/apache2/sites-available/reverse-proxy.conf</code> and add more <code>ProxyPass</code> and <code>ProxyReverse</code> directives</p>
+<pre class="language-"><code class="lang-bash">ProxyPass <span class="token string">&quot;/oz&quot;</span> <span class="token string">&quot;http://localhost:8080/&quot;</span>
+     ProxyPassReverse <span class="token string">&quot;/oz&quot;</span> <span class="token string">&quot;http://localhost:8080/&quot;</span>
+
+     ProxyPass <span class="token string">&quot;/notespace&quot;</span> <span class="token string">&quot;http://localhost:8181/&quot;</span>
+     ProxyPassReverse <span class="token string">&quot;/notespace&quot;</span> <span class="token string">&quot;http://localhost:8181/&quot;</span>
+</code></pre>
+<div class="panel panel-warning"><div class="panel-heading"><h3 class="panel-title" id="oz-only-working-on-"><i class="fa fa-exclamation-triangle"></i> Oz only working on /</h3></div><div class="panel-body"><p>Using the reverse proxy configuration so far, Oz will only render the server page and not the views.  It is assumed that this is because of web sockets and will need to enable the mod proxy module for websockets too.</p><p>References</p><ul>
+<li><a href="https://httpd.apache.org/docs/2.4/mod/mod_proxy_wstunnel.html" target="_blank">https://httpd.apache.org/docs/2.4/mod/mod_proxy_wstunnel.html</a></li>
+<li><a href="https://www.serverlab.ca/tutorials/linux/web-servers-linux/how-to-reverse-proxy-websockets-with-apache-2-4/" target="_blank">https://www.serverlab.ca/tutorials/linux/web-servers-linux/how-to-reverse-proxy-websockets-with-apache-2-4/</a></li>
+<li><a href="https://websiteforstudents.com/configure-reverse-proxies-using-apache2-http-server-on-ubuntu-18-04/" target="_blank">https://websiteforstudents.com/configure-reverse-proxies-using-apache2-http-server-on-ubuntu-18-04/</a></li>
+</ul></div></div>
+ <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="../reference/" class="navigation navigation-next navigation-unique" aria-label="Next page: Reference">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Using a shared server","level":"7.1","depth":1,"next":{"title":"Reference","level":"8.1","depth":1,"path":"reference/index.md","ref":"reference/index.md","articles":[]},"previous":{"title":"libpython-clj","level":"6.1.1","depth":2,"url":"https://github.com/clj-python/libpython-clj","ref":"https://github.com/clj-python/libpython-clj","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-headings-lambda","callouts","codeblock-disable-glossary","disqus","folding-chapters","ga","-glossary","-highlight","klipse","newtabs","prism","sectionx","simpletabs","-sharing","splitter","terminull-light","theme-jr0cket","toggle-chapters","toolbar","youtube","wide-page"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"data-science-practicalli"},"callouts":{"showTypeInHeader":false,"star":{"alert":"warning","picto":"fa-star"}},"youtube":{},"splitter":{},"search":{},"wide-page":{},"anchor-headings-lambda":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"terminull-light":{},"simpletabs":{},"codeblock-disable-glossary":{},"fontsettings":{"theme":"white","family":"sans","size":2},"folding-chapters":{},"sectionx":{"tag":"b"},"ga":{"configuration":"auto","token":"UA-28030709-12"},"klipse":{"myConfigKey":"it's the default value"},"theme-jr0cket":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"toolbar":{"buttons":[{"label":"Clojurians Slack","icon":"fa fa-comments-o","url":"http://clojurians.slack.com/messages/practicalli"},{"label":"GitHub","icon":"fa fa-github","url":"https://github.com/practicalli/spacemacs-content/projects/1"},{"label":"Search page title on StackOverflow","icon":"fa fa-stack-overflow","url":"http://stackoverflow.com/search?q={{title}}"}]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"newtabs":{},"toggle-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"P9IDeveloperGuides":"https://github.com/jr0cket/developer-guides/raw/master/","P9IClojure":"https://practical.li/clojure","P9IPullRequestsUrl":"https://github.com/practicalli/into-clojure-data-science/pulls","P9IClojureDepsEdn":"https://github.com/practicalli/clojure-deps-edn","KeyDownArrow":"<kbd>↓</kbd>","host":"practical.li","KeyCtrl":"<kbd>Ctrl</kbd>","Leiningen":"https://leiningen.org/","P9IClojureThroughCode":"https://github.com/practicalli/clojure-through-code","KeyUpArrow":"<kbd>↑</kbd>","P9IIssuesUrl":"https://github.com/practicalli/into-clojure-data-science/issues","KeyEsc":"<kbd>Esc</kbd>","KeyEnter":"<kbd>Enter</kbd>","website":"https://practical.li/into-clojure-data-science"},"title":"Into Clojure Data Science","links":{"sidebar":{"SciCloj":"https://scicloj.github.io/","Practical.li":"https://practicalli.github.io"}},"gitbook":">=3.0.0","description":"Getting started with Clojure for Data Science. Discover data mining, data wrangling and visualization tools for Data Science in Clojure"},"file":{"path":"collaborative-coding/shared-server.md","mtime":"2021-08-23T23:22:10.651Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-08-23T23:23:24.299Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-anchor-headings-lambda/anchor-style.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codeblock-disable-glossary/disable-glossary.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-folding-chapters/folding-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-newtabs/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-newtabs/tabs.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-simpletabs/tabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminull-light/terminull.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+        
+    </body>
+</html>
+
