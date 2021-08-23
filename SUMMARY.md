@@ -38,6 +38,14 @@
 
 <!-- ## Python Integraion -->
 
+## Mathematics
+
+* [Linear Algebra](mathematics/linear-algebra/index.md)
+
+
+<!-- ## Artificial Intelligence -->
+<!-- * [Overview](artificial-intelligence/index.md) -->
+
 
 ## Reference
 * [Reference](reference/index.md)
