@@ -47,6 +47,12 @@
 <!-- * [Overview](artificial-intelligence/index.md) -->
 
 
+### Integration
+
+* [Python](integration/python/index.md)
+    * [libpython-clj](https://github.com/clj-python/libpython-clj)
+
+
 ## Reference
 * [Reference](reference/index.md)
 * [Math for Clojure developers](reference/math/math-for-clojure-developers.md)
