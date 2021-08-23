@@ -1,6 +1,7 @@
 # Summary
 
 * [Overview](overview.md)
+    * [Persona](persona/index.md)
 
 ## Collaborative Programming
 * [Using a shared server](collaborative-coding/shared-server.md)
