@@ -3,6 +3,14 @@
 * [Overview](overview.md)
     * [Persona](persona/index.md)
 
+* [Notebooks](notebooks/index.md)
+    * [notespace](notebooks/notespace/index.md)
+        * [Configure notespace](notebooks/notespace/configure-notespace-project.md)
+
+    * [Clerk](notebooks/clerk/index.md)
+    * [Next Journal](notebooks/next-journal/index.md)
+    * [Pink Gorilla](notebooks/pink-gorilla/index.md)
+
 ## Collaborative Programming
 * [Using a shared server](collaborative-coding/shared-server.md)
 
