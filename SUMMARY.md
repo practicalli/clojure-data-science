@@ -1,6 +1,5 @@
 # Summary
 
-* [Introduction](introduction.md)
 
 ## Collaborative Programming
 * [Using a shared server](collaborative-coding/shared-server.md)

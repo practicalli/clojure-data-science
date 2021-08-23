@@ -1,102 +1,43 @@
-# Data Science with Clojure
-A guide to writing services and applications in the context of data science
+![Practicalli Data Science book banner](https://raw.githubusercontent.com/practicalli/graphic-design/live/book-covers/practicalli-clojure-data-science-book-banner-alpha.png)
 
-Introduces libraries and tools useful for creating those applications
+> #### Hint::Alpha stage book
+> Over 3 months of work has been planned out for the development of this book.  If funding via Clojurists Together is secured, then this work will be completed before the end of 2021.  Otherwise the first release of the book will be Spring/Summer 2022
 
-Visualisation of data
+A practical guide to data mining, data wrangling and visualisation tools, techniques and libraries.  Guides will take a story telling approach to ensure a meaningful context in which design decisions are taken.
 
-Integration with other data science tooling
-
-Reference to useful mathematical techniques
-
-This guide does not claim to make any attempt to teach you how to be a professional data scientist.
-
-
-## Initial focus
-Focusing on the essentials as a very basic introduction to some of the most simplest data science
-
-* tools
-* data wrangling
-* data visualisation
-
-
-## Example projects
-
-* Simple Covid19 dashboard - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
-
-* Oz Visualisation examples - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
-
-* Ascii visualisation
-
-* Visualising survey data - take a survey such as
-
-
-## Other aspects
-
-* Data generation - examples of how to generate sample data
-
-* Data sources - what are good data sources and what concepts are they good for exploring
-
-* Identify and simply explain data science concepts and provide understanding / examples of how they can be valuable
-
-
-## Data Science
-
-What does it include and what kind of projects
-
-
-- Trend analysis
-- Principle component analysis
-- Basic Modelling (for machine learning)
-
+A starting point for Clojure developers on their journey into Data Science.  As Data Science is such a vast subject area, no one resource can cover such diversity, so this guide will recommend numerous resources that go far deeper into specific areas.
 
 
 ## Target Audience
 
-This guide is aimed at predominantly software engineer (software developer) audience and they would benefit from Clojure experience and practice.
+This guide is aimed at software engineers interested in data science or working as data analysts or with data science teams.  No data science experience is expected and the authors of this guide are not data science experts.
 
-As little as possible experience should be required to follow and understand this guide
-
-
-### Persona
-
-Jane is a Clojure developer with a couple of years commercial experience
-Jane has no data science experience
-She has a project to create a dashboard to visualise covid19 data for her company
-And has to find useful tools and data sources to build the dashboard
-
-Jada
-- statisticians
-- machine learning
-- visualisation
-- computer vision
-- ML Ops
-- Probabilistic ???
+Mathematics concepts underpin much of data science and will be explained as they are used, or recommend resources linked to.  Mathematics experience should also notbe required.
 
 
 
-Jamie is a analyst using data science for the last year as a company doing X
-and has completed X data science course
-and works with several more experienced data scientist who are using some python and R to build data models.
+## SciCloj community
+A community of people using Clojure and other tools to create amazing things in the realm of science
+* [Homepage](https://scicloj.github.io/)
+* [YouTube channel](https://www.youtube.com/channel/UCaoZzhNzq-H7YiQczXKuXuw/)
+* [GitHub repository](https://github.com/scicloj/)
+* [SciCloj discussions](https://scicloj.github.io/pages/chat_streams/) on [Zulip Clojurians](http://clojurians.zulipchat.com/)
 
 
-Jenny is new to coding and has an interest in data science and machine learning and has no real experience in any of these.
-doesnt know what she doesnt know
-doesnt know where to start looking
+## Resources
+* [Interactive Programming for Artificial Intelligence](https://aiprobook.com/) - learn artificial intelligence programming skills
+* [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/)
+* [clojuredatascience.com](http://clojuredatascience.com/) - Henry Garner
 
 
-Jennifer has several years experience of R and Python (and occasionally wrangled a few C++ libraries)
-Jennifer is curious about Clojure because ???
-- listened to a talk on Simple made Easy and wishes that R and Python would make some of the work simpler
--
 
+## Aspects to develop for the book
+* Aspects of data science and
+* Visualization of data
+* Integration with other data science tooling
+* Reference to useful mathematical techniques
 
-## Contributing
-Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are easier when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
-
-* [Kanban board of issues](https://github.com/practicalli/data-science-content/projects/1)
-* [Current Issues](https://github.com/practicalli/data-science-content/issues)
-* [Current pull requests](https://github.com/practicalli/data-science-content/pulls)
+This guide will not teach you how to be a professional data scientist but should help you when working with experienced data scientists.
 
 
 ---
