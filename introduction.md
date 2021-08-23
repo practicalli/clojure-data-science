@@ -1,44 +1,24 @@
-![Practicalli Data Science book banner](https://raw.githubusercontent.com/practicalli/graphic-design/master/practicalli-clojure-data-science-book-banner-alpha.png)
+![Practicalli Data Science book banner](https://raw.githubusercontent.com/practicalli/graphic-design/live/book-covers/practicalli-clojure-data-science-book-banner-alpha.png)
 
+> #### Hint::Alpha stage book
+> Over 3 months of work has been planned out for the development of this book.  If funding via Clojurists Together is secured, then this work will be completed before the end of 2021.  Otherwise the first release of the book will be Spring/Summer 2022
 
-# Data Science with Clojure
+A practical guide to data mining, data wrangling and visualisation tools, techniques and libraries.  Guides will take a story telling approach to ensure a meaningful context in which design decisions are taken.
 
-Getting started with Clojure data science applications libraries and tools.  Learn to write services and applications using Clojure  within the context of data science.
+A starting point for Clojure developers on their journey into Data Science.  As Data Science is such a vast subject area, no one resource can cover such diversity, so this guide will recommend numerous resources that go far deeper into specific areas.
 
-Introduces Clojure libraries and tools useful for creating notebooks, applications, services and visualizations
-
-## What is data science
-
-Neural networks are a collection of predicate functions that are assembled into a network
-
-AI is the future we are trying to build
-machine learning, neural networks, natural language programming are the practical tools and approaches that we are applying to solve AI
-
-
-## What is Clojure?
-Clojure is a general purpose programming language and is used for creating any applications, tools, services across any industry.
-
-Clojure is a hosted language, so it can run on a Java Virtual machine (especially for high volume data processing).  Clojure can also run on JavaScript engines found in web browsers and nodejs.
-
-Clojure has a very simple syntax and is simple to write and maintain.
-
-Clojure is very data centric and the standard library has over 500 functions for manipulating and transforming data, so is ideal for data science tasks.
-
-[Practicalli Clojure will help you get started with Clojure](https://practicalli.github.io/clojure/) and help you create a Clojure development environment with a [Clojure aware editor](http://practicalli.github.io/clojure/clojure-editors/).
-
-## Examples of Clojure for Data Science
-Use cases
-
-
-## Notebooks
-* NextJournal
-* [Pink Gorilla interactive notebook](https://pink-gorilla.github.io/)
-* Notespace
+### Data Mining
+* scraping unstructured data sources
+* consuming open API data sources
+* highlighting reputable and high quality data sources
 
 
 ## Clojure libraries for data science
 * Tablecloth
-* tech.viz and Oz
+* dtype-next
+* tech.viz
+* Oz
+* Hanami
 
 
 ## Time series
@@ -52,24 +32,12 @@ A community of people using Clojure and other tools to create amazing things in 
 * [GitHub repository](https://github.com/scicloj/)
 * [SciCloj discussions](https://scicloj.github.io/pages/chat_streams/) on [Zulip Clojurians](http://clojurians.zulipchat.com/)
 
-## Highly Recommended books for developers
-[![Deep Learning for Programmers](https://aiprobook.com/img/dlfp-cover.png)](https://aiprobook.com/deep-learning-for-programmers/)
-[![Deep Learning for Programmers](https://aiprobook.com/img/lafp-cover.png)](https://aiprobook.com/numerical-linear-algebra-for-programmers/)
-
-
 
 ## Resources
 * [Interactive Programming for Artificial Intelligence](https://aiprobook.com/) - learn artificial intelligence programming skills
 * [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/)
 * [clojuredatascience.com](http://clojuredatascience.com/) - Henry Garner
 
-
-## Contributing
-Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are easier when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
-
-* [Kanban board of issues](https://github.com/practicalli/data-science-content/projects/1)
-* [Current Issues](https://github.com/practicalli/data-science-content/issues)
-* [Current pull requests](https://github.com/practicalli/data-science-content/pulls)
 
 
 ## Aspects to develop for the book
