@@ -10,14 +10,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Practical guide to Clojure programming language and Clojure REPL driven development" name="description"/>
+<meta content="Practical guide to Clojure tools and services to support Data Science" name="description"/>
 <meta content="Practicalli" name="author"/>
-<link href="https://practical.li/clojure/introduction/writing-tips/" rel="canonical"/>
+<link href="https://practical.li/clojure-data-science/introduction/writing-tips/" rel="canonical"/>
 <link href="../contributing/" rel="prev"/>
 <link href="../../install/" rel="next"/>
 <link href="../../assets/favicon.svg" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.2" name="generator"/>
-<title>Writing Tips - Practicalli Clojure</title>
+<title>Writing Tips - Practicalli Clojure Data Science</title>
 <link href="../../assets/stylesheets/main.7bf56d0a.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -28,17 +28,17 @@
 <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-QZ22Z9DH4T"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-QZ22Z9DH4T",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-QZ22Z9DH4T",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
 <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
 <meta content="website" property="og:type"/>
-<meta content="Writing Tips - Practicalli Clojure" property="og:title"/>
-<meta content="Practical guide to Clojure programming language and Clojure REPL driven development" property="og:description"/>
-<meta content="https://practical.li/clojure/assets/images/social/introduction/writing-tips.png" property="og:image"/>
+<meta content="Writing Tips - Practicalli Clojure Data Science" property="og:title"/>
+<meta content="Practical guide to Clojure tools and services to support Data Science" property="og:description"/>
+<meta content="https://practical.li/clojure-data-science/assets/images/social/introduction/writing-tips.png" property="og:image"/>
 <meta content="image/png" property="og:image:type"/>
 <meta content="1200" property="og:image:width"/>
 <meta content="630" property="og:image:height"/>
-<meta content="https://practical.li/clojure/introduction/writing-tips/" property="og:url"/>
+<meta content="https://practical.li/clojure-data-science/introduction/writing-tips/" property="og:url"/>
 <meta content="summary_large_image" name="twitter:card"/>
-<meta content="Writing Tips - Practicalli Clojure" name="twitter:title"/>
-<meta content="Practical guide to Clojure programming language and Clojure REPL driven development" name="twitter:description"/>
-<meta content="https://practical.li/clojure/assets/images/social/introduction/writing-tips.png" name="twitter:image"/>
+<meta content="Writing Tips - Practicalli Clojure Data Science" name="twitter:title"/>
+<meta content="Practical guide to Clojure tools and services to support Data Science" name="twitter:description"/>
+<meta content="https://practical.li/clojure-data-science/assets/images/social/introduction/writing-tips.png" name="twitter:image"/>
 <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
@@ -80,7 +80,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </div>
 <header class="md-header md-header--shadow" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Practicalli Clojure" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Practicalli Clojure">
+<a aria-label="Practicalli Clojure Data Science" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Practicalli Clojure Data Science">
 <img alt="logo" src="../../assets/images/practicalli-logo.png"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -90,7 +90,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <div class="md-header__ellipsis">
 <div class="md-header__topic">
 <span class="md-ellipsis">
-            Practicalli Clojure
+            Practicalli Clojure Data Science
           </span>
 </div>
 <div class="md-header__topic" data-md-component="header-topic">
@@ -143,7 +143,7 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </div>
 </div>
 <div class="md-header__source">
-<a class="md-source" data-md-component="source" href="https://github.com/practicalli/clojure/" title="Go to repository">
+<a class="md-source" data-md-component="source" href="https://github.com/practicalli/clojure-data-science/" title="Go to repository">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
 </div>
@@ -162,13 +162,13 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Practicalli Clojure" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Practicalli Clojure">
+<a aria-label="Practicalli Clojure Data Science" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Practicalli Clojure Data Science">
 <img alt="logo" src="../../assets/images/practicalli-logo.png"/>
 </a>
-    Practicalli Clojure
+    Practicalli Clojure Data Science
   </label>
 <div class="md-nav__source">
-<a class="md-source" data-md-component="source" href="https://github.com/practicalli/clojure/" title="Go to repository">
+<a class="md-source" data-md-component="source" href="https://github.com/practicalli/clojure-data-science/" title="Go to repository">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
 </div>
@@ -723,10 +723,10 @@ so PR's are of limited value at present. Some page links &amp; images may be tem
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/practicalli/clojure/edit/main/docs/introduction/writing-tips.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/practicalli/clojure-data-science/edit/main/docs/introduction/writing-tips.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
 </a>
-<a class="md-content__button md-icon" href="https://github.com/practicalli/clojure/raw/main/docs/introduction/writing-tips.md" title="View source of this page">
+<a class="md-content__button md-icon" href="https://github.com/practicalli/clojure-data-science/raw/main/docs/introduction/writing-tips.md" title="View source of this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"></path></svg>
 </a>
 <h1 id="writing-tips-for-mkdocs">Writing tips for MkDocs<a class="headerlink" href="#writing-tips-for-mkdocs" title="Permanent link">λ︎</a></h1>

@@ -1,157 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://practical.li/clojure/</loc>
+         <loc>https://practical.li/clojure-data-science/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/artificial-intelligence/</loc>
+         <loc>https://practical.li/clojure-data-science/artificial-intelligence/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/assets/images/social/</loc>
+         <loc>https://practical.li/clojure-data-science/assets/images/social/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/collaborative-coding/</loc>
+         <loc>https://practical.li/clojure-data-science/collaborative-coding/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/collaborative-coding/shared-repl-server/</loc>
+         <loc>https://practical.li/clojure-data-science/collaborative-coding/shared-repl-server/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/data-mining/</loc>
+         <loc>https://practical.li/clojure-data-science/data-mining/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/data-mining/webscraping/</loc>
+         <loc>https://practical.li/clojure-data-science/data-mining/webscraping/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/data-mining/webscraping/enlive/</loc>
+         <loc>https://practical.li/clojure-data-science/data-mining/webscraping/enlive/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/data-mining/webscraping/table-data/</loc>
+         <loc>https://practical.li/clojure-data-science/data-mining/webscraping/table-data/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/data-transformation/</loc>
+         <loc>https://practical.li/clojure-data-science/data-transformation/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/data-transformation/tablecloth/</loc>
+         <loc>https://practical.li/clojure-data-science/data-transformation/tablecloth/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/install/</loc>
+         <loc>https://practical.li/clojure-data-science/install/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/integration/python/</loc>
+         <loc>https://practical.li/clojure-data-science/integration/python/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/contributing/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/contributing/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/data-science-books/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/data-science-books/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/online-courses/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/online-courses/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/persona/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/persona/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/repl-workflow/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/repl-workflow/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/what-is-clojure/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/what-is-clojure/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/writing-tips/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/writing-tips/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/introduction/concepts/</loc>
+         <loc>https://practical.li/clojure-data-science/introduction/concepts/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/mathematics/</loc>
+         <loc>https://practical.li/clojure-data-science/mathematics/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/mathematics/linear-algebra/</loc>
+         <loc>https://practical.li/clojure-data-science/mathematics/linear-algebra/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/notebooks/</loc>
+         <loc>https://practical.li/clojure-data-science/notebooks/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/notebooks/clerk/</loc>
+         <loc>https://practical.li/clojure-data-science/notebooks/clerk/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/notebooks/next-journal/</loc>
+         <loc>https://practical.li/clojure-data-science/notebooks/next-journal/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/notebooks/notespace/</loc>
+         <loc>https://practical.li/clojure-data-science/notebooks/notespace/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/notebooks/notespace/configure-notespace-project/</loc>
+         <loc>https://practical.li/clojure-data-science/notebooks/notespace/configure-notespace-project/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/r/</loc>
+         <loc>https://practical.li/clojure-data-science/r/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/reference/</loc>
+         <loc>https://practical.li/clojure-data-science/reference/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://practical.li/clojure/visualisation/</loc>
+         <loc>https://practical.li/clojure-data-science/visualisation/</loc>
          <lastmod>2023-03-10</lastmod>
          <changefreq>daily</changefreq>
     </url>
