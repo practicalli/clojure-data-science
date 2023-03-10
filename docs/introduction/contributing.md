@@ -1,6 +1,6 @@
 # Contributing to Practicalli
 
-How to effectivley contribute to Practicalli Clojure
+How to effectivley contribute to Practicalli books.
 
 Practicalli books are written in markdown and use MkDocs to generate the published website via a GitHub workflow.  MkDocs can also run a local server using the `make docs` target from the `Makefile`
 
