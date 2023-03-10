@@ -1,0 +1,213 @@
+---
+# Practicalli Clojure
+site_name: Practicalli Clojure
+site_url: https://practical.li/clojure
+site_description: Practical guide to Clojure programming language and Clojure REPL driven development
+site_author: Practicalli
+copyright: Copyright &copy 2023  Practicali <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+repo_url: https://github.com/practicalli/clojure/
+edit_uri: https://github.com/practicalli/clojure/edit/main/docs/
+
+# Deployment
+# remote_name: origin
+remote_branch: gh-pages # deployment branch
+
+# Theme and styling
+theme:
+  name: material
+  logo: assets/images/practicalli-logo.png
+  favicon: assets/favicon.svg
+  features:
+    - announce.dismiss
+    - navigation.top
+    - content.code.annotate
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - navigation.instant # Avoid page reloading for internal links
+    - navigation.tracking # Update URL with anchor
+    - navigation.indexes # Nav sections can have files
+    - navigation.footer
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  # Override theme
+  custom_dir: overrides
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+## Additional styling
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html # Grids
+  - footnotes # footnotes and abbreviations
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys # keyboard keys
+  - pymdownx.magiclink
+  - def_list # lists
+  - pymdownx.tasklist:
+      custom_checkbox: true # checkboxes
+  - toc:
+      permalink: λ︎
+
+## Plugins
+plugins:
+  # Explicitly add search plugin when defining plugins in this configuration file
+  - search
+  - callouts
+  - glightbox # Image aligning
+  - git-revision-date-localized: # Update and Creation date of each page
+      # enable_creation_date: true
+      fallback_to_build_date: true
+
+  # Generate Social Cards via CI only
+  # in assets/images/social
+  - social:
+      cards: !ENV [MKDOCS_SOCIAL_CARDS_GENERATE, true]
+
+  # Redirect pages when moved or changed
+  - redirects:
+      redirect_maps:
+        repl-driven-development.md: introduction/repl-workflow.md
+        clojure-cli/data-browsers/index.md: data-inspector/index.md
+        clojure-editors/editor-install-guides/vspacecode-calva.md: clojure-editors/index.md
+        clojure-editors/editor-user-guides/vspacecode-calva.md: clojure-editors/index.md
+
+# Footer / Social Media
+extra:
+  analytics:
+    provider: google
+    property: G-QZ22Z9DH4T
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jr0cket/
+    - icon: fontawesome/brands/slack
+      link: https://clojurians.slack.com/messages/practicalli
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/practical_li
+    - icon: fontawesome/brands/github
+      link: https://github.com/practicalli
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/practicalli
+
+# Navigation
+nav:
+  - Introduction:
+      - index.md
+
+      - Persona: introduction/persona.md
+      - What is Clojure?: introduction/what-is-clojure.md
+      - Recommended books: introduction/data-science-books.md
+      - REPL Workflow: introduction/repl-workflow.md
+      - Concepts:
+          - introduction/concepts/index.md
+      - Contributing: introduction/contributing.md
+      - Writing Tips: introduction/writing-tips.md
+  - Install:
+      - install/index.md
+
+## Tooling
+
+  - Collaborative Coding:
+      - collaborative-coding/index.md
+      - Shared Server: collaborative-coding/shared-repl-server.md
+
+  # - Literate programming:
+  #     - literate-programming/index.md
+
+  - Notebooks:
+      - notebooks/index.md
+      - notespace:
+          - notebooks/notespace/index.md
+          - Configure project: notebooks/notespace/configure-notespace-project.md
+
+      - Clerk:
+          - notebooks/clerk/index.md
+      - Next Journal:
+          - notebooks/next-journal/index.md
+      # - Pink Gorilla:
+      #     - notebooks/pink-gorilla/index.md
+
+  - Data Mining:
+      - data-mining/index.md
+      - Web scraping:
+          - data-mining/webscraping/index.md
+          - HTML Tags: data-mining/webscraping/enlive.md
+          - Table data: data-mining/webscraping/table-data.md
+          # - CSV transforms:
+          #     - data-mining/comman-separate-values/index.md
+          #     - clojure.data.csv: data-mining/comman-separate-values/clojure-data-csv.md
+          #     - semantic-csv: data-mining/comman-separate-values/semantic-csv.md
+          # - JSON transforms: data-mining/json/index.md
+
+  - Data Transformation:
+      - data-transformation/index.md
+      - Tablecloth: data-transformation/tablecloth/index.md
+
+  - Visualisation:
+      - visualisation/index.md
+      # - Story telling: visualization/story-telling/index.md
+      # - Oz:
+      #     - visualization/oz/index.md
+      #     - Create Project: visualization/oz/create-project.md
+      #     - Clojure Spec: visualization/oz/clojure-spec.md
+      #     - Generate Static site: visualization/oz/clojure-spec.md
+      # - ggplot:
+      #     - visualization/ggplot/index.md
+
+  - R:
+      - r/index.md
+      # - Incantor: r/incantor.md
+
+
+  # - Python Integration:
+  #     - python-integration/index.md
+  #     - libpython-clj: python-integration/libpython-clj
+
+
+  - Mathematics:
+      - mathematics/index.md
+      - Linear Algebra:
+          - mathematics/linear-algebra/index.md
+
+
+  - Artificial Intelligence:
+      - artificial-intelligence/index.md
+
+
+  - Reference:
+      - reference/index.md
+      # - Data Files: reference/data-files.md
