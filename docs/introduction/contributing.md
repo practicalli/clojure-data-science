@@ -1,18 +1,18 @@
-# Contributing to Practicalli Clojure
+# Contributing to Practicalli
 
 How to effectivley contribute to Practicalli Clojure
 
-[practicalli/neovim](https://github.com/practicalli/clojure/){target=_blank} is written in markdown and uses MkDocs to generate the website via a GitHub action.
+Practicalli books are written in markdown and use MkDocs to generate the published website via a GitHub workflow.  MkDocs can also run a local server using the `make docs` target from the `Makefile`
 
-By submitting content ideas and corrections you are agreeing they can be used in this book under the [Creative Commons Attribution ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/){target=_blank}.  Attribution will be detailed via [GitHub contributors](https://github.com/practicalli/clojure/graphs/contributors){target=_blank}.
+By submitting content ideas and corrections you are agreeing they can be used in this book under the [Creative Commons Attribution ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/){target=_blank}.  Attribution will be detailed via [GitHub contributors](https://github.com/practicalli/clojure-data-science/graphs/contributors){target=_blank}.
 
 All content and interaction with any persons or systems must be done so with respect and within the Practicalli Code of Conduct.
 
 
 ## Book status
 
-[![MegaLinter](https://github.com/practicalli/clojure/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/practicalli/clojure/actions/workflows/megalinter.yaml)[![Publish Book](https://github.com/practicalli/clojure/actions/workflows/publish-book.yaml/badge.svg)](https://github.com/practicalli/clojure/actions/workflows/publish-book.yaml){target=_blank}
-[![pages-build-deployment](https://github.com/practicalli/clojure/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/practicalli/clojure/actions/workflows/pages/pages-build-deployment){target=_blank}
+[![MegaLinter](https://github.com/practicalli/clojure-data-science/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/practicalli/clojure-data-science/actions/workflows/megalinter.yaml)[![Publish Book](https://github.com/practicalli/clojure-data-science/actions/workflows/publish-book.yaml/badge.svg)](https://github.com/practicalli/clojure-data-science/actions/workflows/publish-book.yaml){target=_blank}
+[![pages-build-deployment](https://github.com/practicalli/clojure-data-science/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/practicalli/clojure-data-science/actions/workflows/pages/pages-build-deployment){target=_blank}
 
 [![Ideas & Issues](https://img.shields.io/github/issues/practicalli/clojure-practicalli-content?label=content%20ideas%20and%20issues&logoColor=green&style=for-the-badge)](https://github.com/practicalli/clojure-practicalli-content/issues){target=_blank}
 [![Pull requests](https://img.shields.io/github/issues-pr/practicalli/clojure-practicalli-content?style=for-the-badge)](https://github.com/practicalli/clojure-practicalli-content/pulls){target=_blank}
@@ -28,7 +28,7 @@ All content and interaction with any persons or systems must be done so with res
 
 ### Submit and issue or idea
 
-If something doesnt seem quite right or something is missing from the book, please [raise an issue via the GitHub repository](https://github.com/practicalli/clojure/issues){target=_blank} explaining in as much detail as you can.
+If something doesnt seem quite right or something is missing from the book, please [raise an issue via the GitHub repository](https://github.com/practicalli/clojure-data-science/issues){target=_blank} explaining in as much detail as you can.
 
 Raising an issue before creating a pull request will save you and the maintainer time.
 
@@ -44,8 +44,8 @@ A PR with a list of changes across different sections will not be merged, it wil
 
 ## Thank you to everyone that has contributed
 
-* [SciCloj community](https://scicloj.github.io/) and Daniel Slutsky
-* Dave Leepmann and [Applied](http://www.appliedscience.studio/articles/covid19.html)
+* [SciCloj community](https://scicloj.github.io/){target=_blank .md-button} and Daniel Slutsky
+* Dave Leepmann and [Applied](http://www.appliedscience.studio/articles/covid19.html{target=_blank .md-button})
 * Clojure Data Science community on Zulip
 
 A huge thank you to Rich Hickey and the team at Cognitect for creating and continually guiding the Clojure language.  Special thank you to Alex Miller who has provided excellent advice on working with Clojure and the CLI tooling.
@@ -57,7 +57,3 @@ Thank you to everyone who sponsors the Practicalli websites and videos and for t
 Special thanks to [Bruce Durling](https://twitter.com/otfrom){target=_blank} for getting me into Cloure in the first place.
 
 ![GitHub contributors](https://img.shields.io/github/contributors/practicalli/clojure?style=for-the-badge&label=github%20contributors)
-
-
-
-
