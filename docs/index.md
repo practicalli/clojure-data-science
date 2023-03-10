@@ -6,9 +6,13 @@
     Currently the book is a collection of various external references with a small amount of commercial experience captured.
 
 
-A practical guide to data mining, data transformation and visualisation tools, techniques and libraries.  Guides will take a story telling approach to ensure a meaningful context in which design decisions are taken.
+A guide to writing services and applications in the context of data science
+
+Topics will include data mining, data transformation and visualisation tools, techniques and libraries.  Guides will take a story telling approach using visualisation tools to ensure a meaningful context in which design decisions are taken.
 
 A starting point for Clojure developers on their journey into Data Science.  As Data Science is such a vast subject area, no one resource can cover such diversity, so this guide will recommend numerous resources that go far deeper into specific areas.
+
+This guide does not claim to make any attempt to teach you how to be a professional data scientist.
 
 
 ## Data Mining
@@ -35,6 +39,25 @@ A starting point for Clojure developers on their journey into Data Science.  As 
 - Mathematical Optimisation
 - Calculus
 
+Future topics
+
+- Trend analysis
+- Principle component analysis
+- Basic Modelling (for machine learning)
+- Time series [tidyverts](https://tidyverts.org/)
+- Data generation - examples of how to generate sample data
+- Data sources - what are good data sources and what concepts are they good for exploring
+- Identify and simply explain data science concepts and provide understanding / examples of how they can be valuable
+
+
+## Clojure libraries for data science
+
+* Tablecloth
+* dtype-next
+* tech.viz
+* Oz
+* Hanami
+
 
 ## Integration with data science tools
 
@@ -42,8 +65,21 @@ A starting point for Clojure developers on their journey into Data Science.  As 
 - [:fontawesome-brands-youtube: Extending Clojure with Python - Chris Nuernberger](https://www.youtube.com/watch?v=vQPW16_jixs){target=_blank}
 
 
+## Example projects
+
+* Simple Covid19 dashboard - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
+
+* Oz Visualisation examples - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
+
+* Ascii visualisation
+
+* Visualising survey data - take a survey such as
+
+
 ## SciCloj community
+
 A community of people using Clojure and other tools to create amazing things in the realm of science
+
 * [Homepage](https://scicloj.github.io/){target=_blank}
 * [:fontawesome-brands-youtube: SciCloj YouTube channel](https://www.youtube.com/channel/UCaoZzhNzq-H7YiQczXKuXuw/){target=_blank}
 * [GitHub repository](https://github.com/scicloj/){target=_blank}
@@ -51,20 +87,10 @@ A community of people using Clojure and other tools to create amazing things in 
 
 
 ## Resources
+
 * [Interactive Programming for Artificial Intelligence](https://aiprobook.com/){target=_blank} - learn artificial intelligence programming skills
 * [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/){target=_blank}
 * [clojuredatascience.com](http://clojuredatascience.com/){target=_blank} - Henry Garner
-
-
-
-## Aspects to develop for the book
-
-* Aspects of data science and
-* Visualization of data
-* Integration with other data science tooling
-* Reference to useful mathematical techniques
-
-This guide will not teach you how to be a professional data scientist but should help you when working with experienced data scientists.
 
 
 ## Sponsor Practicalli
