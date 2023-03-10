@@ -1,7 +1,30 @@
+```none
+██████╗ ██████╗  █████╗  ██████╗████████╗██╗ ██████╗ █████╗ ██╗     ██╗     ██╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║██╔════╝██╔══██╗██║     ██║     ██║
+██████╔╝██████╔╝███████║██║        ██║   ██║██║     ███████║██║     ██║     ██║
+██╔═══╝ ██╔══██╗██╔══██║██║        ██║   ██║██║     ██╔══██║██║     ██║     ██║
+██║     ██║  ██║██║  ██║╚██████╗   ██║   ██║╚██████╗██║  ██║███████╗███████╗██║
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝
+```
+
+# Data Science with Clojure
+
+A guide to writing services and applications in the context of data science
+
+Introduces libraries and tools useful for creating those applications
+
+Visualization of data
+
+Integration with other data science tooling
+
+Reference to useful mathematical techniques
+
+This guide does not claim to make any attempt to teach you how to be a professional data scientist.
+
 ![Practicalli Data Science book banner](https://raw.githubusercontent.com/practicalli/graphic-design/live/book-covers/practicalli-clojure-data-science-book-banner-alpha.png)
 
-> #### Hint::Alpha stage book
-> Over 3 months of work has been planned out for the development of this book.  If funding via Clojurists Together is secured, then this work will be completed before the end of 2021.  Otherwise the first release of the book will be Spring/Summer 2022
+> Alpha stage book - very early concept capturing experiences of data science work from the last 3 commercial engagments by the Practicalli team
+
 
 A practical guide to data mining, data wrangling and visualisation tools, techniques and libraries.  Guides will take a story telling approach to ensure a meaningful context in which design decisions are taken.
 
@@ -16,32 +39,96 @@ Mathematics concepts underpin much of data science and will be explained as they
 
 
 
-## SciCloj community
-A community of people using Clojure and other tools to create amazing things in the realm of science
-* [Homepage](https://scicloj.github.io/)
-* [YouTube channel](https://www.youtube.com/channel/UCaoZzhNzq-H7YiQczXKuXuw/)
-* [GitHub repository](https://github.com/scicloj/)
-* [SciCloj discussions](https://scicloj.github.io/pages/chat_streams/) on [Zulip Clojurians](http://clojurians.zulipchat.com/)
+
+## Contributing
+Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are easier when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
+
+* [Kanban board of issues](https://github.com/practicalli/data-science-content/projects/1)
+* [Current Issues](https://github.com/practicalli/data-science-content/issues)
+* [Current pull requests](https://github.com/practicalli/data-science-content/pulls)
 
 
-## Resources
-* [Interactive Programming for Artificial Intelligence](https://aiprobook.com/) - learn artificial intelligence programming skills
-* [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/)
-* [clojuredatascience.com](http://clojuredatascience.com/) - Henry Garner
+## Book status
+
+[![MegaLinter](https://github.com/practicalli/clojure/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/practicalli/clojure/actions/workflows/megalinter.yaml)[![Publish Book](https://github.com/practicalli/clojure/actions/workflows/publish-book.yaml/badge.svg)](https://github.com/practicalli/clojure/actions/workflows/publish-book.yaml){target=_blank}
+[![pages-build-deployment](https://github.com/practicalli/clojure/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/practicalli/clojure/actions/workflows/pages/pages-build-deployment){target=_blank}
+
+[![Ideas & Issues](https://img.shields.io/github/issues/practicalli/clojure-practicalli-content?label=content%20ideas%20and%20issues&logoColor=green&style=for-the-badge)](https://github.com/practicalli/clojure-practicalli-content/issues){target=_blank}
+[![Pull requests](https://img.shields.io/github/issues-pr/practicalli/clojure-practicalli-content?style=for-the-badge)](https://github.com/practicalli/clojure-practicalli-content/pulls){target=_blank}
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/practicalli/clojure-practicalli-content?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/practicalli/clojure?style=for-the-badge&label=github%20contributors)
 
 
+## Creative commons license
 
-## Aspects to develop for the book
-* Aspects of data science and
-* Visualization of data
-* Integration with other data science tooling
-* Reference to useful mathematical techniques
-
-This guide will not teach you how to be a professional data scientist but should help you when working with experienced data scientists.
+<div style="width:95%; margin:auto;">
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+  This work is licensed under a Creative Commons Attribution 4.0 ShareAlike License (including images & stylesheets).
+</div>
 
 
----
+## Contributing
 
-This work is licensed under a Creative Commons Attribution 4.0 ShareAlike License (including images & stylesheets).
+Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are simpler to work with when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Data Science, Practicalli</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="data-science.practical.li" property="cc:attributionName" rel="cc:attributionURL">John Stevenson</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/practicalli/data-science" rel="dct:source">Data Science, Practicalli on Gitub</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/practical_li" rel="cc:morePermissions">@practical_li</a>.
+Please [see the detailed contributing section of the book](contributing.html) before raising an issue or pull request
+
+* [Current Issues](https://github.com/practicalli/clojure/issues)
+* [Current pull requests](https://github.com/practicalli/clojure/pulls)
+
+[Practicalli Clojure CLI Config](clojure/clojure-cli/practicalli-config.md) provides a user level configuration used in this guide and issues and pull requests can also be made there.
+
+By submitting content ideas and corrections you are agreeing they can be used in this workshop under the [Creative Commons Attribution ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).  Attribution will be detailed via [GitHub contributors](https://github.com/practicalli/clojure/graphs/contributors).
+
+
+## Sponsor Practicalli
+
+[![Sponsor practicalli-john](https://raw.githubusercontent.com/practicalli/graphic-design/live/buttons/practicalli-github-sponsors-button.png)](https://github.com/sponsors/practicalli-john/)
+
+The majority of my work is focused on the [Practicalli series of books and videos](https://practical.li/) and an advisory role with several communities
+
+Thank you to [Cognitect](https://www.cognitect.com/), [Nubank](https://nubank.com.br/) and a wide range of other [sponsors](https://github.com/sponsors/practicalli-john#sponsors) for your continued support
+
+
+## GitHub Actions
+
+The megalinter GitHub actions will run when a pull request is created,checking basic markdown syntax.
+
+A review of the change will be carried out by the Practicalli team and the PR merged if the change is acceptable.
+
+The Publish Book GitHub action will run when PR's are merged into main (or the Practicalli team pushes changes to the default branch).
+
+Publish book workflow installs Material for MkDocs version 9
+
+
+## Local development
+
+Install mkdocs version 9 using the Python pip package manager
+
+```bash
+pip install mkdocs-material=="9.*"
+```
+
+Install the plugins used by the Practicalli site using Pip (these are also installed in the GitHub Action workflow)
+
+```bash
+pip3 install mkdocs-material mkdocs-callouts mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-redirects pillow cairosvg
+```
+
+> pillow and cairosvg python packages are required for [Social Cards](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/)
+
+Fork the practicalli/spacemacs GitHub repository and clone that fork to your computer,
+
+```bash
+git clone https://github.com/<your-github-account>/spacemacs.git
+
+```
+
+Run a local server from the root of the cloned project
+
+```bash
+mkdocs serve
+```
+
+The website will open at http://localhost:8000
