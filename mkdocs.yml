@@ -205,6 +205,8 @@ nav:
           - mathematics/linear-algebra/index.md
 
 
+  - Natural Language:
+      - natural-language/index.md
   - Artificial Intelligence:
       - artificial-intelligence/index.md
 
