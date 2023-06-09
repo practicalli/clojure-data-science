@@ -139,14 +139,11 @@ nav:
       - Writing Tips: introduction/writing-tips.md
   - Install:
       - install/index.md
-
-## Tooling
-
+  ## Tooling
   - Collaborative Coding:
       - collaborative-coding/index.md
       - Shared Server: collaborative-coding/shared-repl-server.md
-
-  # - Literate programming:
+  ### - Literate programming:
   #     - literate-programming/index.md
 
   - Notebooks:
@@ -154,14 +151,12 @@ nav:
       - notespace:
           - notebooks/notespace/index.md
           - Configure project: notebooks/notespace/configure-notespace-project.md
-
       - Clerk:
           - notebooks/clerk/index.md
       - Next Journal:
           - notebooks/next-journal/index.md
       # - Pink Gorilla:
       #     - notebooks/pink-gorilla/index.md
-
   - Data Mining:
       - data-mining/index.md
       - Web scraping:
@@ -173,11 +168,9 @@ nav:
           #     - clojure.data.csv: data-mining/comman-separate-values/clojure-data-csv.md
           #     - semantic-csv: data-mining/comman-separate-values/semantic-csv.md
           # - JSON transforms: data-mining/json/index.md
-
   - Data Transformation:
       - data-transformation/index.md
       - Tablecloth: data-transformation/tablecloth/index.md
-
   - Visualisation:
       - visualisation/index.md
       # - Story telling: visualization/story-telling/index.md
@@ -188,29 +181,20 @@ nav:
       #     - Generate Static site: visualization/oz/clojure-spec.md
       # - ggplot:
       #     - visualization/ggplot/index.md
-
   - R:
       - r/index.md
       # - Incantor: r/incantor.md
-
-
-  # - Python Integration:
-  #     - python-integration/index.md
-  #     - libpython-clj: python-integration/libpython-clj
-
-
+      # - Python Integration:
+      #     - python-integration/index.md
+      #     - libpython-clj: python-integration/libpython-clj
   - Mathematics:
       - mathematics/index.md
       - Linear Algebra:
           - mathematics/linear-algebra/index.md
-
-
   - Natural Language:
       - natural-language/index.md
   - Artificial Intelligence:
       - artificial-intelligence/index.md
-
-
   - Reference:
       - reference/index.md
       # - Data Files: reference/data-files.md
