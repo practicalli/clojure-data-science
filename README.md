@@ -1,3 +1,5 @@
+# Data Science with Clojure
+
 ```none
 ██████╗ ██████╗  █████╗  ██████╗████████╗██╗ ██████╗ █████╗ ██╗     ██╗     ██╗
 ██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║██╔════╝██╔══██╗██║     ██║     ██║
@@ -7,7 +9,26 @@
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝
 ```
 
-# Data Science with Clojure
+## Book status
+
+[![MegaLinter](https://github.com/practicalli/clojure-data-science/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/practicalli/clojure-data-science/actions/workflows/megalinter.yaml)
+[![Publish Book](https://github.com/practicalli/clojure-data-science/actions/workflows/publish-book.yaml/badge.svg)](https://github.com/practicalli/clojur-data-sciencee/actions/workflows/publish-book.yaml)
+[![pages-build-deployment](https://github.com/practicalli/clojur-data-sciencee/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/practicalli/clojur-data-sciencee/actions/workflows/pages/pages-build-deployment)
+
+[![Ideas & Issues](https://img.shields.io/github/issues/practicalli/clojure-data-science?label=content%20ideas%20and%20issues&logoColor=green&style=for-the-badge)](https://github.com/practicalli/clojure-data-science/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/practicalli/clojure-data-science?style=for-the-badge)](https://github.com/practicalli/clojure-data-science/pulls)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/practicalli/clojure-practicalli-content?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/practicalli/clojure?style=for-the-badge&label=github%20contributors)
+
+## Creative commons license
+
+<div style="width:95%; margin:auto;">
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+  This work is licensed under a Creative Commons Attribution 4.0 ShareAlike License (including images & stylesheets).
+</div>
+
+## Overview
 
 A guide to writing services and applications in the context of data science
 
@@ -37,50 +58,18 @@ This guide is aimed at software engineers interested in data science or working 
 
 Mathematics concepts underpin much of data science and will be explained as they are used, or recommend resources linked to.  Mathematics experience should also notbe required.
 
-
-
-
-## Contributing
-Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are easier when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
-
-* [Kanban board of issues](https://github.com/practicalli/data-science-content/projects/1)
-* [Current Issues](https://github.com/practicalli/data-science-content/issues)
-* [Current pull requests](https://github.com/practicalli/data-science-content/pulls)
-
-
-## Book status
-
-[![MegaLinter](https://github.com/practicalli/clojure-data-science/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/practicalli/clojure-data-science/actions/workflows/megalinter.yaml)
-[![Publish Book](https://github.com/practicalli/clojure-data-science/actions/workflows/publish-book.yaml/badge.svg)](https://github.com/practicalli/clojur-data-sciencee/actions/workflows/publish-book.yaml)
-[![pages-build-deployment](https://github.com/practicalli/clojur-data-sciencee/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/practicalli/clojur-data-sciencee/actions/workflows/pages/pages-build-deployment)
-
-[![Ideas & Issues](https://img.shields.io/github/issues/practicalli/clojure-data-science?label=content%20ideas%20and%20issues&logoColor=green&style=for-the-badge)](https://github.com/practicalli/clojure-data-science/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/practicalli/clojure-data-science?style=for-the-badge)](https://github.com/practicalli/clojure-data-science/pulls)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/practicalli/clojure-practicalli-content?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/practicalli/clojure?style=for-the-badge&label=github%20contributors)
-
-
-## Creative commons license
-
-<div style="width:95%; margin:auto;">
-  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-  This work is licensed under a Creative Commons Attribution 4.0 ShareAlike License (including images & stylesheets).
-</div>
-
-
 ## Contributing
 
 Issues and pull requests are most welcome.  Please detail issues as much as you can.  Pull requests are simpler to work with when they are specific to a page or at most a section.  The smaller the change the quicker it is to review and merge.
 
 Please [see the detailed contributing section of the book](contributing.html) before raising an issue or pull request
 
-* [Current Issues](https://github.com/practicalli/clojure/issues)
-* [Current pull requests](https://github.com/practicalli/clojure/pulls)
+* [Current Issues](https://github.com/practicalli/clojure-data-science/issues)
+* [Current pull requests](https://github.com/practicalli/clojure-data-science/pulls)
 
 [Practicalli Clojure CLI Config](clojure/clojure-cli/practicalli-config.md) provides a user level configuration used in this guide and issues and pull requests can also be made there.
 
-By submitting content ideas and corrections you are agreeing they can be used in this workshop under the [Creative Commons Attribution ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).  Attribution will be detailed via [GitHub contributors](https://github.com/practicalli/clojure/graphs/contributors).
+By submitting content ideas and corrections you are agreeing they can be used in this workshop under the [Creative Commons Attribution ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/).  Attribution will be detailed via [GitHub contributors](https://github.com/practicalli/clojure-data-science/graphs/contributors).
 
 
 ## Sponsor Practicalli
@@ -119,10 +108,10 @@ pip3 install mkdocs-material mkdocs-callouts mkdocs-glightbox mkdocs-git-revisio
 
 > pillow and cairosvg python packages are required for [Social Cards](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/)
 
-Fork the practicalli/spacemacs GitHub repository and clone that fork to your computer,
+Fork the GitHub repository and clone that fork to your computer,
 
 ```bash
-git clone https://github.com/<your-github-account>/spacemacs.git
+git clone https://github.com/<your-github-account>/<repository>.git
 
 ```
 
@@ -132,4 +121,4 @@ Run a local server from the root of the cloned project
 mkdocs serve
 ```
 
-The website will open at http://localhost:8000
+The website will open at <http://localhost:8000>
