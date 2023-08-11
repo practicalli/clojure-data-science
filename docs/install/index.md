@@ -6,7 +6,6 @@ A [Clojure aware editor](https://practical.li/clojure/clojure-editors/) is highl
 
 - [Spacemacs](https://practical.li/spacemacs/) - an extensive and easy to use Emacs configuration
 - [Neovim and Conjure](https://practical.li/neovim/) - a lightweight and highly extensible modal editing experience
-- [Doom Emacs](https://practical.li/doom-emacs/) - a minimal Emacs configuration that is easily configurable
 
 Practialli Clojure provides [an overview of Clojure editors available](https://practical.li/clojure/clojure-editors/)
 
