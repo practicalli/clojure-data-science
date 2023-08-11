@@ -66,12 +66,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://practical.li/clojure-data-science/introduction/clojure-libraries/</loc>
+         <lastmod>2023-08-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://practical.li/clojure-data-science/introduction/contributing/</loc>
          <lastmod>2023-08-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://practical.li/clojure-data-science/introduction/data-science-books/</loc>
+         <lastmod>2023-08-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://practical.li/clojure-data-science/introduction/data-science/</loc>
          <lastmod>2023-08-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
