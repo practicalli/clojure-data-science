@@ -14,6 +14,9 @@ A starting point for Clojure developers on their journey into Data Science.  As 
 
 This guide does not claim to make any attempt to teach you how to be a professional data scientist.
 
+!!! QUOTE ""
+    Without good data, there is no science - John Stevenson
+
 
 ## Data Mining
 
