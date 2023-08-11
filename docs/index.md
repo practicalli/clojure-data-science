@@ -6,94 +6,52 @@
     Currently the book is a collection of various external references with a small amount of commercial experience captured.
 
 
-A guide to writing services and applications in the context of data science
+A guide to writing Clojure services and using tools to support a range of data science activities.
 
 Topics will include data mining, data transformation and visualisation tools, techniques and libraries.  Guides will take a story telling approach using visualisation tools to ensure a meaningful context in which design decisions are taken.
-
-A starting point for Clojure developers on their journey into Data Science.  As Data Science is such a vast subject area, no one resource can cover such diversity, so this guide will recommend numerous resources that go far deeper into specific areas.
-
-This guide does not claim to make any attempt to teach you how to be a professional data scientist.
 
 !!! QUOTE ""
     Without good data, there is no science - John Stevenson
 
 
-## Data Mining
+Data Science is a vast subject area so this guide will recommend numerous resources that go deeper into specific areas.
 
-* scraping unstructured data sources
-* consuming open API data sources
-* highlighting reputable and high quality data sources
+> This guide does not claim to make any attempt to teach you how to be a professional data scientist.
 
 
-## Data Transformation
+[:fontawesome-solid-book-open: Data Mining](data-mining/){.md-button}
 
-* writing services and applications in the context of data science.
+[:fontawesome-solid-book-open: Data Transformation](data-transformation/){.md-button}
 
-
-## Story telling with data
-
-- Visualisation of data
-
-
-## Data Science theory
-
-- Statistics and probability
-- Linear Algebra
-- Mathematical Optimisation
-- Calculus
-
-Future topics
-
-- Trend analysis
-- Principle component analysis
-- Basic Modelling (for machine learning)
-- Time series [tidyverts](https://tidyverts.org/)
-- Data generation - examples of how to generate sample data
-- Data sources - what are good data sources and what concepts are they good for exploring
-- Identify and simply explain data science concepts and provide understanding / examples of how they can be valuable
-
-
-## Clojure libraries for data science
-
-* Tablecloth
-* dtype-next
-* tech.viz
-* Oz
-* Hanami
-
-
-## Integration with data science tools
-
-- [:fontawesome-brands-github: libpython-clj](https://github.com/clj-python/libpython-clj){target=_blank} - Deep Clojure/Python Integration
-- [:fontawesome-brands-youtube: Extending Clojure with Python - Chris Nuernberger](https://www.youtube.com/watch?v=vQPW16_jixs){target=_blank}
+[:fontawesome-solid-book-open: Story telling with data](visualisation/){.md-button}
 
 
 ## Example projects
 
-* Simple Covid19 dashboard - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
+- Simple Covid19 dashboard - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
 
-* Oz Visualisation examples - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
+- Oz Visualisation examples - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
 
-* Ascii visualisation
+- Ascii visualisation
 
-* Visualising survey data - take a survey such as
+- Visualising survey data - take a survey such as
 
 
 ## SciCloj community
 
 A community of people using Clojure and other tools to create amazing things in the realm of science
 
-* [Homepage](https://scicloj.github.io/){target=_blank}
-* [:fontawesome-brands-youtube: SciCloj YouTube channel](https://www.youtube.com/channel/UCaoZzhNzq-H7YiQczXKuXuw/){target=_blank}
-* [GitHub repository](https://github.com/scicloj/){target=_blank}
-* [SciCloj discussions](https://scicloj.github.io/pages/chat_streams/){target=_blank} on [Zulip Clojurians](http://clojurians.zulipchat.com/){target=_blank}
+- [Homepage](https://scicloj.github.io/){target=_blank}
+- [:fontawesome-brands-youtube: SciCloj YouTube channel](https://www.youtube.com/channel/UCaoZzhNzq-H7YiQczXKuXuw/){target=_blank}
+- [GitHub repository](https://github.com/scicloj/){target=_blank}
+- [SciCloj discussions](https://scicloj.github.io/pages/chat_streams/){target=_blank} on [Zulip Clojurians](http://clojurians.zulipchat.com/){target=_blank}
 
 
 ## Resources
 
-* [Interactive Programming for Artificial Intelligence](https://aiprobook.com/){target=_blank} - learn artificial intelligence programming skills
-* [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/){target=_blank}
-* [clojuredatascience.com](http://clojuredatascience.com/){target=_blank} - Henry Garner
+- [Interactive Programming for Artificial Intelligence](https://aiprobook.com/){target=_blank} - learn artificial intelligence programming skills
+- [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/){target=_blank}
+- [clojuredatascience.com](http://clojuredatascience.com/){target=_blank} - Henry Garner
 
 
 ## Navigate the book
