@@ -32,15 +32,19 @@ Data Science is a vast subject area so this guide will recommend numerous resour
 [:fontawesome-solid-book-open: Story telling with data](visualisation/){.md-button}
 
 
-## Example projects
+## Practicalli projects
 
-- Simple Covid19 dashboard - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
+[:fontawesome-brands-github: Simple Covid19 dashboard](https://github.com/practicalli/covid19-dashboard) - import data from CSV, simple data wrangling and creating a website dashboard using Oz for a vega-lite based visualisation and CSS for highlighting specific data points
 
-- Oz Visualisation examples - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
+![Practicalli Covid 19 Dashboard](https://github.com/practicalli/covid19-dashboard/raw/master/resources/covid19-tracker-oz-dashboard.png)
+
+[:fontawesome-brands-github: Oz Visualisation examples](https://github.com/practicalli/oz-visualisations) - learn some of the capabilities of Oz and demonstrate how to create a range of visualisations
+
+![Practicalli Oz visualisation examples](https://github.com/practicalli/oz-visualisations/raw/master/resources/public/oz-visualizing-the-weather.png)
 
 - Ascii visualisation
 
-- Visualising survey data - take a survey such as
+- Visualising survey data 
 
 
 ## SciCloj community
