@@ -13,6 +13,12 @@ Topics will include data mining, data transformation and visualisation tools, te
 !!! QUOTE ""
     Without good data, there is no science - John Stevenson
 
+## Data Engineering
+
+Data Science relies on effecive data engineering workflow
+
+![Data Engineering workflow - aquire generate clean explore transform](https://github.com/practicalli/graphic-design/blob/live/data-science/data-workflow-aquire-clean-explore-transform.png?raw=true){loading=lazy}
+
 
 Data Science is a vast subject area so this guide will recommend numerous resources that go deeper into specific areas.
 
