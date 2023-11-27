@@ -72,7 +72,7 @@ A community of people using Clojure and other tools to create amazing things in 
 - [Interactive Programming for Artificial Intelligence](https://aiprobook.com/){target=_blank} - learn artificial intelligence programming skills
 - [dragan.rocks - articles on data science with Clojure](https://dragan.rocks/){target=_blank}
 - [clojuredatascience.com](http://clojuredatascience.com/){target=_blank} - Henry Garner
-
+- [:fontawesome-brands-youtube: Kaggle CareerCon 2019](https://www.youtube.com/playlist?list=PLqFaTIg4myu-npFrYu6cO7h7AI6bkcOlL)
 
 ## Navigate the book
 
