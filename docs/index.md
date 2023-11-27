@@ -10,8 +10,11 @@ A guide to writing Clojure services and using tools to support a range of data s
 
 Topics will include data mining, data transformation and visualisation tools, techniques and libraries.  Guides will take a story telling approach using visualisation tools to ensure a meaningful context in which design decisions are taken.
 
-!!! QUOTE ""
-    Without good data, there is no science - John Stevenson
+Data Science is a vast subject area so this guide will recommend numerous resources that go deeper into specific areas.
+
+!!! QUOTE "John Stevenson, Practicalli"
+    Without good data, there is no science
+
 
 ## Data Engineering
 
@@ -20,7 +23,14 @@ Data Science relies on effecive data engineering workflow
 ![Data Engineering workflow - aquire generate clean explore transform](https://github.com/practicalli/graphic-design/blob/live/data-science/data-workflow-aquire-clean-explore-transform.png?raw=true){loading=lazy}
 
 
-Data Science is a vast subject area so this guide will recommend numerous resources that go deeper into specific areas.
+!!! HINT "Dont skimp on the data"
+    Effecive models require a good history of data to work with and evolve the capabilities of a model.
+
+    If there is data to collect, then it should be collected by default and only dropped if proved to be of no value over (a long period of) time.
+
+    Not capturing data from the ealiest possible time can greatly limit or at least delay the creation of more effective models.
+
+
 
 > This guide does not claim to make any attempt to teach you how to be a professional data scientist.
 
